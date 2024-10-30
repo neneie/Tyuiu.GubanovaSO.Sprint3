@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{6DB8D324-4601-41E2-AC06-304B4EE36BDD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task0", "Task0", "{6DB8D324-4601-41E2-AC06-304B4EE36BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GubanovaSO.Sprint3.Task0.V22", "Tyuiu.GubanovaSO.Sprint3.Task0.V22\Tyuiu.GubanovaSO.Sprint3.Task0.V22.csproj", "{F25501DC-E823-48C4-AA4D-95594B19C474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GubanovaSO.Sprint3.Task0.V22", "Tyuiu.GubanovaSO.Sprint3.Task0.V22\Tyuiu.GubanovaSO.Sprint3.Task0.V22.csproj", "{F25501DC-E823-48C4-AA4D-95594B19C474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GubanovaSO.Sprint3.Task0.V22.Lib", "Tyuiu.GubanovaSO.Sprint3.Task0.V22.Lib\Tyuiu.GubanovaSO.Sprint3.Task0.V22.Lib.csproj", "{70DB7E52-235B-403B-A52B-DDC62981A82B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GubanovaSO.Sprint3.Task0.V22.Lib", "Tyuiu.GubanovaSO.Sprint3.Task0.V22.Lib\Tyuiu.GubanovaSO.Sprint3.Task0.V22.Lib.csproj", "{70DB7E52-235B-403B-A52B-DDC62981A82B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GubanovaSO.Sprint3.Task0.V22.Test", "Tyuiu.GubanovaSO.Sprint3.Task0.V22.Test\Tyuiu.GubanovaSO.Sprint3.Task0.V22.Test.csproj", "{326F681F-F00A-45C2-97FF-5FE9EC2DD868}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.GubanovaSO.Sprint3.Task0.V22.Test", "Tyuiu.GubanovaSO.Sprint3.Task0.V22.Test\Tyuiu.GubanovaSO.Sprint3.Task0.V22.Test.csproj", "{326F681F-F00A-45C2-97FF-5FE9EC2DD868}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task1", "Task1", "{9B4FFC8F-4C41-4E27-8A4B-67C803F506C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{DABD87F0-5234-4E8D-B5E9-8147F9F72979}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GubanovaSO.Sprint3.Task1.V24", "Tyuiu.GubanovaSO.Sprint3.Task1.V24\Tyuiu.GubanovaSO.Sprint3.Task1.V24.csproj", "{76547978-51D9-4742-B575-06CC94CC236F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GubanovaSO.Sprint3.Task1.V24.Lib", "Tyuiu.GubanovaSO.Sprint3.Task1.V24.Lib\Tyuiu.GubanovaSO.Sprint3.Task1.V24.Lib.csproj", "{4ED0BCDE-ECD4-4839-8B7D-4010C6C760C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.GubanovaSO.Sprint3.Task1.V24.Test", "Tyuiu.GubanovaSO.Sprint3.Task1.V24.Test\Tyuiu.GubanovaSO.Sprint3.Task1.V24.Test.csproj", "{004C1983-AD2B-4227-8E0F-9CA22A0D59CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +39,18 @@ Global
 		{326F681F-F00A-45C2-97FF-5FE9EC2DD868}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{326F681F-F00A-45C2-97FF-5FE9EC2DD868}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{326F681F-F00A-45C2-97FF-5FE9EC2DD868}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76547978-51D9-4742-B575-06CC94CC236F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76547978-51D9-4742-B575-06CC94CC236F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76547978-51D9-4742-B575-06CC94CC236F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76547978-51D9-4742-B575-06CC94CC236F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED0BCDE-ECD4-4839-8B7D-4010C6C760C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED0BCDE-ECD4-4839-8B7D-4010C6C760C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED0BCDE-ECD4-4839-8B7D-4010C6C760C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED0BCDE-ECD4-4839-8B7D-4010C6C760C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{004C1983-AD2B-4227-8E0F-9CA22A0D59CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{004C1983-AD2B-4227-8E0F-9CA22A0D59CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{004C1983-AD2B-4227-8E0F-9CA22A0D59CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{004C1983-AD2B-4227-8E0F-9CA22A0D59CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -37,6 +59,9 @@ Global
 		{F25501DC-E823-48C4-AA4D-95594B19C474} = {6DB8D324-4601-41E2-AC06-304B4EE36BDD}
 		{70DB7E52-235B-403B-A52B-DDC62981A82B} = {6DB8D324-4601-41E2-AC06-304B4EE36BDD}
 		{326F681F-F00A-45C2-97FF-5FE9EC2DD868} = {6DB8D324-4601-41E2-AC06-304B4EE36BDD}
+		{76547978-51D9-4742-B575-06CC94CC236F} = {9B4FFC8F-4C41-4E27-8A4B-67C803F506C5}
+		{4ED0BCDE-ECD4-4839-8B7D-4010C6C760C0} = {9B4FFC8F-4C41-4E27-8A4B-67C803F506C5}
+		{004C1983-AD2B-4227-8E0F-9CA22A0D59CD} = {9B4FFC8F-4C41-4E27-8A4B-67C803F506C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CECCAF79-7BD8-4CB2-995B-8577D137A963}
