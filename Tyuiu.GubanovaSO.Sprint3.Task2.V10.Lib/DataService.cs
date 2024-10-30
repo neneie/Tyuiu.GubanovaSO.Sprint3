@@ -5,13 +5,15 @@ namespace Tyuiu.GubanovaSO.Sprint3.Task2.V10.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double MultiplySeries = 1;
+            double p = 1;
+            double t = value;
+            int k = startValue;
             do
             {
-                MultiplySeries = MultiplySeries * (Math.Pow(value, startValue) + 1 / startValue + 1);
-                startValue++;
-            } while (startValue <= stopValue);
-            return Math.Round(MultiplySeries, 3);
+                p = p * ((Math.Pow(t, k) + 1) / (k + 1));
+                k++;
+            } while (k <= stopValue);
+            return Math.Round(p, 3);
         }
     }
 }
